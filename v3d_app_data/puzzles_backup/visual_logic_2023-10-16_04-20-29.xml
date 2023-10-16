@@ -1,0 +1,110 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <tab name="Init" type="InitTab" active="false" scrollx="20" scrolly="0" scale="0.9"></tab>
+  <tab name="New Tab" type="CommonTab" active="true" scrollx="76.42814105236243" scrolly="52.97239833198773" scale="0.8227024747918819">
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenClicked" id="c(02Co_rv4cSuR!7h}gb" inline="false" x="270" y="110">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="true"></mutation>
+      <field name="X_RAY">FALSE</field>
+      <field name="DOUBLE_CLICK">FALSE</field>
+      <field name="LEFT_BUTTON">TRUE</field>
+      <field name="MIDDLE_BUTTON">TRUE</field>
+      <field name="RIGHT_BUTTON">TRUE</field>
+      <value name="VALUE">
+        <shadow type="objectList" id="ZYNAHP#w[I0=$+w`jOjT">
+          <field name="FIELDNAME">Куб</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="hide" id="[Ykf[n?|GjsDM8#yP_GK">
+          <value name="VALUE">
+            <shadow type="objectList" id="#UB63zV%*Z1lkEk(|NaF">
+              <field name="FIELDNAME">Куб</field>
+            </shadow>
+          </value>
+        </block>
+      </statement>
+      <statement name="IF_MISSED_DO">
+        <block type="show" id="/$K(Su;D=dlaJL4i0B1-">
+          <value name="VALUE">
+            <shadow type="objectList" id="j`sCBQ/}G|}hW_Gc9xH6">
+              <field name="FIELDNAME">Куб</field>
+            </shadow>
+          </value>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenHovered" id="}1S|==fTz.Zsf=|i5`DA" inline="false" x="270" y="250">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false"></mutation>
+      <field name="X_RAY">FALSE</field>
+      <value name="VALUE">
+        <shadow type="objectList" id="V}YZlf:;sa{X,L$Khr/o">
+          <field name="FIELDNAME">Куб</field>
+        </shadow>
+        <block type="allObjectList" id="]B#)Egj`/[gkm.a,Jpt0"></block>
+      </value>
+      <statement name="DO_OVER">
+        <block type="outline" id="c)0.b3VHl%q]h(%+4{GE">
+          <field name="DO_WHAT">ENABLE</field>
+          <value name="TARGET">
+            <shadow type="objectList" id="K-,.kz@d0}{so;*bO|9f">
+              <field name="FIELDNAME">&lt;none&gt;</field>
+            </shadow>
+            <block type="hoveredObject" id="HG#Ig3:)}$i`D-`dZM^P"></block>
+          </value>
+          <next>
+            <block type="pauseAnimation" id="QUomZ$GlIo87~CXvY#rH">
+              <value name="VALUE">
+                <shadow type="animationList" id="sz+Et3`DH*MKpl.;(/~{">
+                  <field name="FIELDNAME">&lt;none&gt;</field>
+                </shadow>
+                <block type="hoveredObject" id="In.%#@#l{[L]aLAWB8+B"></block>
+              </value>
+            </block>
+          </next>
+        </block>
+      </statement>
+      <statement name="DO_OUT">
+        <block type="outline" id="$iu;W(;v$gPNHJPLv;T]">
+          <field name="DO_WHAT">DISABLE</field>
+          <value name="TARGET">
+            <shadow type="objectList" id="Nq,PHU(zft{Ou@%/GYG5">
+              <field name="FIELDNAME">Куб</field>
+            </shadow>
+            <block type="hoveredObject" id="qB.RrsTX!EmG.+G()L;r"></block>
+          </value>
+          <next>
+            <block type="resumeAnimation" id="*e$[JmnHuXcd).GCb).v">
+              <value name="VALUE">
+                <shadow type="animationList" id="]jWB:%Mf$hIjA)36)9i)">
+                  <field name="FIELDNAME">&lt;none&gt;</field>
+                </shadow>
+                <block type="hoveredObject" id="C/j:dk0RBDz4})4Lj0=z"></block>
+              </value>
+            </block>
+          </next>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenDraggedOver" id="+r1^;necGP;=P3IkXSH2" x="270" y="490">
+      <field name="X_RAY">FALSE</field>
+      <field name="LEFT_BUTTON">TRUE</field>
+      <field name="MIDDLE_BUTTON">TRUE</field>
+      <field name="RIGHT_BUTTON">TRUE</field>
+      <value name="VALUE">
+        <shadow type="objectList" id="h4}1heQ4y*Kyc+3)u2i2">
+          <field name="FIELDNAME">Icosphere</field>
+        </shadow>
+      </value>
+      <statement name="DO_MOVE">
+        <block type="dragMove" id="x6XQuO$/Y%J5b*hS*2[9">
+          <field name="MODE">XY</field>
+          <value name="TARGETOBJ">
+            <shadow type="objectList" id="=`0rs^J.$S+v[,f=Z,2~">
+              <field name="FIELDNAME">Icosphere</field>
+            </shadow>
+          </value>
+        </block>
+      </statement>
+    </block>
+  </tab>
+  <editorsettings viewport-x="1106.1999999999998" viewport-y="36" viewport-w="748.8" viewport-h="483" viewport-hidden="false" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>
+</xml>

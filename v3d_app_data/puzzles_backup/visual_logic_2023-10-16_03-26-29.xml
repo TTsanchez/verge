@@ -1,0 +1,58 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <tab name="Init" type="InitTab" active="false" scrollx="20" scrolly="0" scale="0.9"></tab>
+  <tab name="New Tab" type="CommonTab" active="true" scrollx="32.29452514648506" scrolly="4.589569091796875" scale="0.9070294784580498">
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenClicked" id="c(02Co_rv4cSuR!7h}gb" inline="false" x="270" y="110">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="true"></mutation>
+      <field name="X_RAY">FALSE</field>
+      <field name="DOUBLE_CLICK">FALSE</field>
+      <field name="LEFT_BUTTON">TRUE</field>
+      <field name="MIDDLE_BUTTON">TRUE</field>
+      <field name="RIGHT_BUTTON">TRUE</field>
+      <value name="VALUE">
+        <shadow type="objectList" id="ZYNAHP#w[I0=$+w`jOjT">
+          <field name="FIELDNAME">Куб</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="hide" id="[Ykf[n?|GjsDM8#yP_GK">
+          <value name="VALUE">
+            <shadow type="objectList" id="#UB63zV%*Z1lkEk(|NaF">
+              <field name="FIELDNAME">Куб</field>
+            </shadow>
+          </value>
+        </block>
+      </statement>
+      <statement name="IF_MISSED_DO">
+        <block type="show" id="/$K(Su;D=dlaJL4i0B1-">
+          <value name="VALUE">
+            <shadow type="objectList" id="j`sCBQ/}G|}hW_Gc9xH6">
+              <field name="FIELDNAME">Куб</field>
+            </shadow>
+          </value>
+        </block>
+      </statement>
+      <next>
+        <block type="whenHovered" id="}1S|==fTz.Zsf=|i5`DA" inline="false">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false"></mutation>
+          <field name="X_RAY">FALSE</field>
+          <value name="VALUE">
+            <shadow type="objectList" id="V}YZlf:;sa{X,L$Khr/o">
+              <field name="FIELDNAME">Куб</field>
+            </shadow>
+          </value>
+          <statement name="DO_OVER">
+            <block type="outline" id="szidugCRym^.oKi[mQQs">
+              <field name="DO_WHAT">ENABLE</field>
+              <value name="TARGET">
+                <shadow type="objectList" id="K-,.kz@d0}{so;*bO|9f">
+                  <field name="FIELDNAME">&lt;none&gt;</field>
+                </shadow>
+              </value>
+            </block>
+          </statement>
+        </block>
+      </next>
+    </block>
+  </tab>
+  <editorsettings viewport-x="1105.1999999999998" viewport-y="37" viewport-w="748.8" viewport-h="483" viewport-hidden="false" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>
+</xml>

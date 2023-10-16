@@ -1,0 +1,46 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <tab name="Init" type="InitTab" active="true" scrollx="20" scrolly="0" scale="0.9">
+    <block xmlns="https://developers.google.com/blockly/xml" type="initSettings" id="zoqWrr;*NpT1j|-^.~6g" x="-10" y="10">
+      <field name="LOAD_COMP_ASSETS">FALSE</field>
+      <field name="FULLSCREEN">FALSE</field>
+      <field name="BKG_TRANSPARENCY">FALSE</field>
+      <field name="PRESERVE_DRAW_BUF">FALSE</field>
+      <field name="FADE_ANNOTATIONS">TRUE</field>
+    </block>
+  </tab>
+  <tab name="New Tab" type="CommonTab" active="false" scrollx="19.999999999999773" scrolly="20.000000000000114" scale="0.9">
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenHovered" id="VgN+|8|]u/=hb7#ec]rT" inline="false" x="350" y="130">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false"></mutation>
+      <field name="X_RAY">FALSE</field>
+      <value name="VALUE">
+        <shadow type="objectList" id=".3/fB2rdEwXrrw.p^}x;">
+          <field name="FIELDNAME">&lt;none&gt;</field>
+        </shadow>
+        <block type="allObjectList" id="o_T3EEdl{%H0Oh|a#/$C"></block>
+      </value>
+      <statement name="DO_OVER">
+        <block type="outline" id=";1iv_fyjO;(SDEK.KE=:">
+          <field name="DO_WHAT">ENABLE</field>
+          <value name="TARGET">
+            <shadow type="objectList" id="mv(5Ic!,^~^YDKP12B@j">
+              <field name="FIELDNAME">&lt;none&gt;</field>
+            </shadow>
+            <block type="hoveredObject" id="V8!}!B4#Zox|E_RdXG=M"></block>
+          </value>
+        </block>
+      </statement>
+      <statement name="DO_OUT">
+        <block type="outline" id="t(?dcp4pyd/_QJFCEu)/">
+          <field name="DO_WHAT">DISABLE</field>
+          <value name="TARGET">
+            <shadow type="objectList" id="-(RGhI[]l?};`q+]%D{0">
+              <field name="FIELDNAME">&lt;none&gt;</field>
+            </shadow>
+            <block type="hoveredObject" id="45Ue=B-%s.Dgi_qBA@RT"></block>
+          </value>
+        </block>
+      </statement>
+    </block>
+  </tab>
+  <editorsettings viewport-x="1105.1999999999998" viewport-y="37" viewport-w="748.8" viewport-h="483" viewport-hidden="false" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>
+</xml>

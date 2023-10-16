@@ -117,18 +117,18 @@
                         </shadow>
                       </value>
                       <statement name="DO">
-                        <block type="show" id="r~8Q``}A}XUZZFC}^!{i">
-                          <value name="VALUE">
-                            <shadow type="objectList" id="}}WoYOf]X)SJ*S=l2o`2">
-                              <field name="FIELDNAME">Куб</field>
+                        <block type="setMaterialWireframe" id="Wa1tQR{LFvh}B7_]cxZc">
+                          <field name="DO_WHAT">DISABLE</field>
+                          <value name="MATERIAL">
+                            <shadow type="materialList" id="6a2.Ns/OSuQm=l)7v^ie">
+                              <field name="FIELDNAME">Glass</field>
                             </shadow>
                           </value>
                           <next>
-                            <block type="setMaterialWireframe" id="Wa1tQR{LFvh}B7_]cxZc">
-                              <field name="DO_WHAT">DISABLE</field>
-                              <value name="MATERIAL">
-                                <shadow type="materialList" id="6a2.Ns/OSuQm=l)7v^ie">
-                                  <field name="FIELDNAME">Glass</field>
+                            <block type="show" id="r~8Q``}A}XUZZFC}^!{i">
+                              <value name="VALUE">
+                                <shadow type="objectList" id="}}WoYOf]X)SJ*S=l2o`2">
+                                  <field name="FIELDNAME">Куб</field>
                                 </shadow>
                               </value>
                               <next>
@@ -172,6 +172,13 @@
           </next>
         </block>
       </next>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="show" id="o``R6:5rTM+/I2~a~k,Y" x="630" y="90">
+      <value name="VALUE">
+        <shadow type="objectList" id="%oxC(lt1u_=ryguAszxN">
+          <field name="FIELDNAME">Куб</field>
+        </shadow>
+      </value>
     </block>
     <block xmlns="https://developers.google.com/blockly/xml" type="whenHovered" id="}1S|==fTz.Zsf=|i5`DA" inline="false" x="630" y="190">
       <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false"></mutation>

@@ -1,6 +1,6 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
   <tab name="Init" type="InitTab" active="false" scrollx="20" scrolly="0" scale="0.9"></tab>
-  <tab name="New Tab" type="CommonTab" active="true" scrollx="121.26965063385796" scrolly="303.184047181996" scale="0.7462153966366273">
+  <tab name="New Tab" type="CommonTab" active="true" scrollx="261.90732452115117" scrolly="221.21416113485793" scale="0.6139132535407591">
     <variables xmlns="https://developers.google.com/blockly/xml">
       <variable id="eKfSdRKa^Gdx3_J9Miz(">pause</variable>
     </variables>
@@ -125,39 +125,30 @@
                             </shadow>
                           </value>
                           <next>
-                            <block type="show" id="r~8Q``}A}XUZZFC}^!{i">
-                              <value name="VALUE">
-                                <shadow type="objectList" id="}}WoYOf]X)SJ*S=l2o`2">
-                                  <field name="FIELDNAME">Куб</field>
+                            <block type="zoomCameraToObject" id="`[pk%@35,[R)W~D*@]xi">
+                              <mutation xmlns="http://www.w3.org/1999/xhtml" whenfinishedslot="false"></mutation>
+                              <value name="OBJECT">
+                                <shadow type="objectList" id="@3)+kW^80Hn4yW(PeE3V">
+                                  <field name="FIELDNAME">Scene</field>
+                                </shadow>
+                              </value>
+                              <value name="DURATION">
+                                <shadow type="math_number" id="y3,#GDs/5PV51BxMEcAC">
+                                  <field name="NUM">1</field>
                                 </shadow>
                               </value>
                               <next>
-                                <block type="zoomCameraToObject" id="`[pk%@35,[R)W~D*@]xi">
-                                  <mutation xmlns="http://www.w3.org/1999/xhtml" whenfinishedslot="false"></mutation>
-                                  <value name="OBJECT">
-                                    <shadow type="objectList" id="@3)+kW^80Hn4yW(PeE3V">
-                                      <field name="FIELDNAME">Scene</field>
+                                <block type="assignMaterial" id="{v5(tJSI!Jtq=m%C[HoJ">
+                                  <value name="VALUE2">
+                                    <shadow type="materialList" id="623WN.scqu[),[KS={ZZ">
+                                      <field name="FIELDNAME">ваза</field>
                                     </shadow>
                                   </value>
-                                  <value name="DURATION">
-                                    <shadow type="math_number" id="y3,#GDs/5PV51BxMEcAC">
-                                      <field name="NUM">1</field>
+                                  <value name="VALUE1">
+                                    <shadow type="objectList" id="Hq?G$,/zL9O`{1;yU/kj">
+                                      <field name="FIELDNAME">Plane</field>
                                     </shadow>
                                   </value>
-                                  <next>
-                                    <block type="assignMaterial" id="{v5(tJSI!Jtq=m%C[HoJ">
-                                      <value name="VALUE2">
-                                        <shadow type="materialList" id="623WN.scqu[),[KS={ZZ">
-                                          <field name="FIELDNAME">ваза</field>
-                                        </shadow>
-                                      </value>
-                                      <value name="VALUE1">
-                                        <shadow type="objectList" id="Hq?G$,/zL9O`{1;yU/kj">
-                                          <field name="FIELDNAME">Plane</field>
-                                        </shadow>
-                                      </value>
-                                    </block>
-                                  </next>
                                 </block>
                               </next>
                             </block>
